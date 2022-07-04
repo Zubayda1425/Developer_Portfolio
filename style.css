@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 250px;
 }
 
 .sec_1 {
@@ -36,4 +37,32 @@ section {
 .banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.sec_2 {
+    width: 50%;
+}
+
+.sec_2 img {
+    width: 80%;
+    padding-left: 9%;
+}
+
+.sec_2 p {
+    padding-right: 20%;
+}
+
+.banner_2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.resume {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(206, 70, 52), rgb(226, 144, 134));
+    color: white;
+    font-weight: 700%;
+    padding: 10px 40px;
+    border-radius: 6px;
 }
